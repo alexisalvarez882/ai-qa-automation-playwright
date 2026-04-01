@@ -15,17 +15,10 @@ This project simulates a shopping cart system where AI is used to **detect, vali
 
 **Alexis Alvarez**  
 Senior QA Automation Engineer / SDET  
+If you'd like to connect, collaborate, or discuss QA + AI:
 
 📧 Contact: aalvarezfreitas@gmail.com 
 🔗 LinkedIn: https://www.linkedin.com/in/alexisalvarezf/
-
----
-
-# 📬 Contact
-
-If you'd like to connect, collaborate, or discuss QA + AI:
-
-📧 aalvarezfreitas@gmail.com 
 
 ---
 
