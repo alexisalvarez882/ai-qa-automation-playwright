@@ -1,32 +1,92 @@
-# 🧠 AI Shopping Assistant + QA Automation Demo
+# 🧠 AI-Powered QA Automation with Playwright
 
-This project was designed and built by **Alexis Freitas** as a hands-on demo to explore how modern QA can evolve with **AI, agents, automation, and full-stack validation**.
+A real-world demo project built by **Alexis Freitas** showcasing how modern QA evolves by combining:
 
-It demonstrates how a QA engineer can combine:
-- AI-powered cart validation (LLM)
-- Agent-based decision logic
-- API + UI automation with Playwright
-- Page Object Model (POM)
-- End-to-end testing (login → cart → agent)
+- AI (LLMs)
+- Agent-based validation
+- API + UI automation
+- Playwright + Page Object Model (POM)
+
+This project simulates a shopping cart system where AI is used to **detect, validate, and fix issues automatically**, while QA automation ensures reliability across the full stack.
 
 ---
 
 # 👨‍💻 Author
 
-**Alexis Alvarez Freitas**  
-Senior AI QA Automation Engineer / SDET  
-Built and authored by Alexis Freitas.
+**Alexis Alvarez**  
+Senior QA Automation Engineer / SDET  
+
+📧 Contact: aalvarezfreitas@gmail.com 
+🔗 LinkedIn: https://www.linkedin.com/in/alexisalvarezf/
 
 ---
 
-# 🚀 Tech Stack
+# 📬 Contact
+
+If you'd like to connect, collaborate, or discuss QA + AI:
+
+📧 aalvarezfreitas@gmail.com 
+
+---
+
+# 🔥 What makes this different
+
+This is not a typical automation project.
+
+It demonstrates:
+
+✔ Testing **AI-driven systems**  
+✔ Validating **non-deterministic outputs**  
+✔ Combining **LLM + deterministic logic**  
+✔ Building **agent-based QA flows**  
+✔ End-to-end automation (UI + API)
+
+---
+
+# 🧠 Core Concepts
+
+## AI Validation (LLM)
+- Cart is analyzed using an LLM
+- Detects invalid prices, duplicates, anomalies
+- Demonstrates testing of non-deterministic outputs
+
+## Agent-Based Testing
+- Combines:
+  - AI reasoning
+  - deterministic validation rules
+- Automatically fixes invalid cart data
+
+## QA Automation Strategy
+- API testing with Playwright
+- UI testing with Playwright (E2E)
+- Page Object Model (POM)
+- Async handling and UI synchronization
+
+---
+
+# 🧪 E2E Flow Covered
+
+1. User logs in
+2. Navigates to cart page
+3. Executes AI agent
+4. System:
+   - detects issues
+   - fixes cart automatically
+5. Test validates:
+   - decision (`FIXED_CART`)
+   - detected issues
+   - corrected values
+
+---
+
+# 🏗️ Tech Stack
 
 ## Backend
 - Node.js
 - TypeScript
 - Express
 - OpenAI API
-- Custom AI Agent + validation tools
+- Custom AI agent + validation tools
 
 ## Frontend
 - Next.js (App Router)
@@ -41,38 +101,4 @@ Built and authored by Alexis Freitas.
 
 ---
 
-# 🧠 What this project demonstrates
-
-### ✅ AI in QA
-- Using LLMs to analyze cart issues
-- Validating non-deterministic responses
-
-### ✅ Agent-based testing
-- Hybrid approach: AI + deterministic rules
-- Automated cart correction logic
-
-### ✅ End-to-End Automation
-- Login flow
-- Cart validation
-- Agent execution
-- Result verification
-
-### ✅ Modern QA Practices
-- Separation of concerns with Page Objects
-- API + UI coverage
-- Async handling and waits
-- Debugging browser/network behavior
-
----
-
 # 📂 Project Structure
-
-```text
-ai-shopping/
-  src/                  # Backend (API + AI + agent)
-  frontend/             # Next.js UI
-  tests/
-    api/                # API tests
-    ui/
-      pages/            # Page Objects
-      specs/            # E2E tests
