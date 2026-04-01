@@ -102,11 +102,12 @@ It demonstrates:
 ---
 
 # 📂 Project Structure
+```text
 ai-shopping/
-src/ # Backend (AI + agent + API)
-frontend/ # Next.js UI
-tests/
-api/ # API tests
-ui/
-pages/ # Page Objects
-specs/ # E2E tests
+├── src/                  # Backend (AI + agent + API)
+├── frontend/             # Next.js UI
+└── tests/
+    ├── api/              # API tests
+    └── ui/
+        ├── pages/        # Page Objects
+        └── specs/        # E2E tests
