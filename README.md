@@ -102,3 +102,11 @@ It demonstrates:
 ---
 
 # 📂 Project Structure
+ai-shopping/
+src/ # Backend (AI + agent + API)
+frontend/ # Next.js UI
+tests/
+api/ # API tests
+ui/
+pages/ # Page Objects
+specs/ # E2E tests
